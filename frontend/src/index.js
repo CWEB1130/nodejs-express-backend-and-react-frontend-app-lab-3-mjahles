@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Offers from './Offers';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Offers />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('offers')
 );
 
 // If you want your app to work offline and load faster, you can change
